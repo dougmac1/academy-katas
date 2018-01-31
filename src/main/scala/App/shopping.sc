@@ -12,6 +12,7 @@ val bleach = new Product("Bleach", "Household", 70)
 val basket = List(bread, milk, milk, washingUpLiquid, bleach)
 
 
+
 /** 1. What is the total price? **/
 
 basket.foldRight(0)(_.price + _)
