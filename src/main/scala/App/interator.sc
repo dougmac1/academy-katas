@@ -16,6 +16,9 @@ class Iterator(var list: List[Int]) {
   }
 }
 
+
+
+
 val iter = new Iterator(List(1,2,3,4,5 ))
 
 
@@ -56,6 +59,5 @@ oranges.foldLeft[Int](23)((x, y) => {
 together, you can change the + to * to multiply etc  */
 
 oranges.foldLeft(0)(_+_)
-
 
 
