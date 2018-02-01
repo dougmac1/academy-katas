@@ -1,16 +1,20 @@
 class Product(val name: String, val category: String, val price: Int) {
+
   override def toString(): String = {
     s"$name - $category ($price)"
+
   }
 }
 
 val bread = new Product("Bread", "Food", 80)
+
 val milk = new Product("Milk", "Food", 60)
+
 val washingUpLiquid = new Product("Washing up liquid", "Household", 100)
+
 val bleach = new Product("Bleach", "Household", 70)
 
 val basket = List(bread, milk, milk, washingUpLiquid, bleach)
-
 
 
 /** 1. What is the total price? **/

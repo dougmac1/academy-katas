@@ -1,3 +1,5 @@
+import scala.io.StdIn
+
 object iteration extends App {
 
 }
@@ -15,8 +17,6 @@ class Iterator(var list: List[Int]) {
     value
   }
 }
-
-
 
 
 val iter = new Iterator(List(1,2,3,4,5 ))
@@ -49,7 +49,7 @@ oranges.foldLeft(0)((p, l) => p + 25 * 231 * l)
 oranges.foldLeft(1)((acc, num) => acc * num)
 
 /* below we are taking list oranges and taking the result of sum and
- assigning the sum of the equation to the val result */
+ assigning the sum of the equation to the result */
 
 oranges.foldLeft[Int](23)((x, y) => {
   val result : Int =  x * y
